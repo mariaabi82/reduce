@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Clase 71: Reduce</title>
+</head>
+<body>
+    <div>
+        <h2>Reduce</h2>
+        <p>Se le aplica a un array</p>
+        <p>Los parámetros son: 1- una función, que tiene SIEMPRE 2 parámetros: 1 acumuladora y el elem que estoy recorriendo ahora</p>
+        <p>(acc y curr)</p>
+        <p>La acumuladora por defecto es el 1er elem del array</p>
+        <p>numbers.reduce((acumuladora, valor actual) => </p>
+        <p>Si cambio la acumuladora puedo hacer varias cosas distintas</p>
+        <p>Si dominás reduce se pueden hacer algoritmos muy complejos</p>
+        <p>Puedo determinar el valor inicial de mi cumuladora colocando el valor antes de cerrar el último paréntesis</p>
+        <p>const suma1 = numbers.reduce((acumuladora, valorActual) => {
+            return acumuladora
+        }, "VALOR INICIAL DE LA ACUMULADORA")</p>
+        <p>const suma1 = numbers.reduce((acumuladora, valorActual) => {
+            return acumuladora
+        } 10)</p>
+        <p>De esta forma, comienza a acumular desde 10</p>
+        <p>Cuando trabajo con números, iniciar la acumuladora en 0</p>
+        <p>Cuando trabajo con strings, iniciar la acumuladora con un string vacío</p>
+        <p>Ej. de reduce: <a href="https://github.com/malerey/Metodos-de-array-ejercicios"></a></p>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>
